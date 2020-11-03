@@ -34,7 +34,6 @@ public class HistogrEqualisation {
         for (int x = 0; x < ukuranX; x++) {
             for (int y = 0; y < ukuranY; y++) {
                 int rgb = gbRgb.getRGB(x, y);
-                int alpha = (rgb << 24) & 0xff;
                 int merahg = (rgb >> 16) & 0xff;
                 int hijaug = (rgb >> 8) & 0xff;
                 int birug = (rgb >> 0) & 0xff;
